@@ -1,0 +1,25 @@
+﻿@page
+@model RazorPages.Pages.Cars.DetailsModel
+
+<h2>Car Details</h2>
+
+<div>
+    <h4>Car</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">Model</dt>
+        <dd class="col-sm-10">@Model.Car.Model</dd>
+        <dt class="col-sm-2">Year</dt>
+        <dd class="col-sm-10">@Model.Car.Year</dd>
+        <dt class="col-sm-2">License Plate</dt>
+        <dd class="col-sm-10">@Model.Car.LicensePlate</dd>
+        <dt class="col-sm-2">Daily Rate</dt>
+        <dd class="col-sm-10">@Model.Car.DailyRate</dd>
+        <dt class="col-sm-2">Status</dt>
+        <dd class="col-sm-10">@Model.Car.Status</dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Car.CarId" class="btn btn-primary">Edit</a>
+    <a asp-page="./Index" class="btn btn-secondary">Back to List</a>
+</div>

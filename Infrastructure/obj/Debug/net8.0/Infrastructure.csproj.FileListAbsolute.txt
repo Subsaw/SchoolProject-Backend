@@ -1,0 +1,15 @@
+D:\Git Hub\SchoolProject-Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+D:\Git Hub\SchoolProject-Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+D:\Git Hub\SchoolProject-Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+D:\Git Hub\SchoolProject-Backend\Infrastructure\bin\Debug\net8.0\Domain.dll
+D:\Git Hub\SchoolProject-Backend\Infrastructure\bin\Debug\net8.0\Domain.pdb
+D:\Git Hub\SchoolProject-Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+D:\Git Hub\SchoolProject-Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git Hub\SchoolProject-Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+D:\Git Hub\SchoolProject-Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+D:\Git Hub\SchoolProject-Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+D:\Git Hub\SchoolProject-Backend\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date
+D:\Git Hub\SchoolProject-Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+D:\Git Hub\SchoolProject-Backend\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+D:\Git Hub\SchoolProject-Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+D:\Git Hub\SchoolProject-Backend\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll

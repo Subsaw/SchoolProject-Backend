@@ -1,0 +1,35 @@
+﻿@page "{id:guid}"
+@model RazorPages.Pages.Cars.EditModel
+
+<h2>Edit Car</h2>
+
+<form method="post">
+    <div class="form-group">
+        <label asp-for="Car.Model" class="control-label"></label>
+        <input asp-for="Car.Model" class="form-control" />
+        <span asp-validation-for="Car.Model" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Car.Year" class="control-label"></label>
+        <input asp-for="Car.Year" class="form-control" />
+        <span asp-validation-for="Car.Year" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Car.LicensePlate" class="control-label"></label>
+        <input asp-for="Car.LicensePlate" class="form-control" />
+        <span asp-validation-for="Car.LicensePlate" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Car.DailyRate" class="control-label"></label>
+        <input asp-for="Car.DailyRate" class="form-control" />
+        <span asp-validation-for="Car.DailyRate" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Car.Status" class="control-label"></label>
+        <input asp-for="Car.Status" class="form-control" />
+        <span asp-validation-for="Car.Status" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Save" class="btn btn-primary" />
+    </div>
+</form>

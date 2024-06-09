@@ -1,0 +1,39 @@
+﻿@page "{id:guid}"
+@model RazorPages.Pages.Customers.EditModel
+
+<h2>Edit Customer</h2>
+
+<form method="post">
+    <input type="hidden" asp-for="Customer.CustomerId" />
+    <div class="form-group">
+        <label asp-for="Customer.FirstName"></label>
+        <input asp-for="Customer.FirstName" class="form-control" />
+        <span asp-validation-for="Customer.FirstName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Customer.LastName"></label>
+        <input asp-for="Customer.LastName" class="form-control" />
+        <span asp-validation-for="Customer.LastName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Customer.Email"></label>
+        <input asp-for="Customer.Email" class="form-control" />
+        <span asp-validation-for="Customer.Email" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Customer.PhoneNumber"></label>
+        <input asp-for="Customer.PhoneNumber" class="form-control" />
+        <span asp-validation-for="Customer.PhoneNumber" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Customer.DateOfBirth"></label>
+        <input asp-for="Customer.DateOfBirth" class="form-control" />
+        <span asp-validation-for="Customer.DateOfBirth" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Customer.DriverLicenseNumber"></label>
+        <input asp-for="Customer.DriverLicenseNumber" class="form-control" />
+        <span asp-validation-for="Customer.DriverLicenseNumber" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+</form>

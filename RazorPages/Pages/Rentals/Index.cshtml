@@ -1,0 +1,36 @@
+﻿@page
+@model RazorPages.Pages.Rentals.IndexModel
+
+<h2>Rentals</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Start Date</th>
+            <th>End Date</th>
+            <th>Total Cost</th>
+            <th>Customer</th>
+            <th>Car</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Rentals)
+        {
+            <tr>
+                <td>@item.StartDate.ToShortDateString()</td>
+                <td>@item.EndDate.ToShortDateString()</td>
+                <td>@item.TotalCost</td>
+                <td>@item.Customer.FirstName @item.Customer.LastName</td>
+                <td>@item.Car.Model</td>
+                <td>
+                    <a asp-page="./Edit" asp-route-id="@item.RentalId">Edit</a> |
+                    <a asp-page="./Details" asp-route-id="@item.RentalId">Details</a> |
+                    <a asp-page="./Delete" asp-route-id="@item.RentalId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-page="./Create" class="btn btn-primary">Create New</a>

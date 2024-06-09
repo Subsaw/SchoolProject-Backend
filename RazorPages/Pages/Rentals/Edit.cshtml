@@ -1,0 +1,34 @@
+﻿@page "{id:guid}"
+@model RazorPages.Pages.Rentals.EditModel
+
+<h2>Edit Rental</h2>
+
+<form method="post">
+    <input type="hidden" asp-for="Rental.RentalId" />
+    <div class="form-group">
+        <label asp-for="Rental.StartDate"></label>
+        <input asp-for="Rental.StartDate" class="form-control" />
+        <span asp-validation-for="Rental.StartDate" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Rental.EndDate"></label>
+        <input asp-for="Rental.EndDate" class="form-control" />
+        <span asp-validation-for="Rental.EndDate" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Rental.TotalCost"></label>
+        <input asp-for="Rental.TotalCost" class="form-control" />
+        <span asp-validation-for="Rental.TotalCost" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Rental.CustomerId"></label>
+        <input asp-for="Rental.CustomerId" class="form-control" />
+        <span asp-validation-for="Rental.CustomerId" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Rental.CarId"></label>
+        <input asp-for="Rental.CarId" class="form-control" />
+        <span asp-validation-for="Rental.CarId" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+</form>

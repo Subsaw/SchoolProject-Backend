@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Git Hub\\SchoolProject-Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F977D192-B1EE-4E4D-8511-E764E05E8397}|RazorPages\\RazorPages.csproj|d:\\git hub\\schoolproject-backend\\razorpages\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F977D192-B1EE-4E4D-8511-E764E05E8397}|RazorPages\\RazorPages.csproj|solutionrelative:razorpages\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{840737BE-B785-4ACA-8C50-B5E5F63B4C2A}|GraphQL\\GraphQL.csproj|d:\\git hub\\schoolproject-backend\\graphql\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{840737BE-B785-4ACA-8C50-B5E5F63B4C2A}|GraphQL\\GraphQL.csproj|solutionrelative:graphql\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C437641-3BE5-4BB0-AEB9-209AA43BFA78}|Application\\Application.csproj|d:\\git hub\\schoolproject-backend\\application\\services\\rentalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C437641-3BE5-4BB0-AEB9-209AA43BFA78}|Application\\Application.csproj|solutionrelative:application\\services\\rentalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C437641-3BE5-4BB0-AEB9-209AA43BFA78}|Application\\Application.csproj|d:\\git hub\\schoolproject-backend\\application\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C437641-3BE5-4BB0-AEB9-209AA43BFA78}|Application\\Application.csproj|solutionrelative:application\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C437641-3BE5-4BB0-AEB9-209AA43BFA78}|Application\\Application.csproj|d:\\git hub\\schoolproject-backend\\application\\services\\carservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C437641-3BE5-4BB0-AEB9-209AA43BFA78}|Application\\Application.csproj|solutionrelative:application\\services\\carservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Git Hub\\SchoolProject-Backend\\RazorPages\\Program.cs",
+              "RelativeDocumentMoniker": "RazorPages\\Program.cs",
+              "ToolTip": "D:\\Git Hub\\SchoolProject-Backend\\RazorPages\\Program.cs",
+              "RelativeToolTip": "RazorPages\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABoAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T16:21:54.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Git Hub\\SchoolProject-Backend\\GraphQL\\Program.cs",
+              "RelativeDocumentMoniker": "GraphQL\\Program.cs",
+              "ToolTip": "D:\\Git Hub\\SchoolProject-Backend\\GraphQL\\Program.cs",
+              "RelativeToolTip": "GraphQL\\Program.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwCQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T16:20:58.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RentalService.cs",
+              "DocumentMoniker": "D:\\Git Hub\\SchoolProject-Backend\\Application\\Services\\RentalService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\RentalService.cs",
+              "ToolTip": "D:\\Git Hub\\SchoolProject-Backend\\Application\\Services\\RentalService.cs",
+              "RelativeToolTip": "Application\\Services\\RentalService.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAIwCUAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T16:20:07.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomerService.cs",
+              "DocumentMoniker": "D:\\Git Hub\\SchoolProject-Backend\\Application\\Services\\CustomerService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\CustomerService.cs",
+              "ToolTip": "D:\\Git Hub\\SchoolProject-Backend\\Application\\Services\\CustomerService.cs",
+              "RelativeToolTip": "Application\\Services\\CustomerService.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAmwC8AAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T16:20:01.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CarService.cs",
+              "DocumentMoniker": "D:\\Git Hub\\SchoolProject-Backend\\Application\\Services\\CarService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\CarService.cs",
+              "ToolTip": "D:\\Git Hub\\SchoolProject-Backend\\Application\\Services\\CarService.cs",
+              "RelativeToolTip": "Application\\Services\\CarService.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAIwCUAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T16:19:54.27Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

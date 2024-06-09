@@ -1,0 +1,36 @@
+﻿@page
+@model RazorPages.Pages.Cars.IndexModel
+
+<h2>Cars</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Model</th>
+            <th>Year</th>
+            <th>License Plate</th>
+            <th>Daily Rate</th>
+            <th>Status</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Cars)
+        {
+            <tr>
+                <td>@item.Model</td>
+                <td>@item.Year</td>
+                <td>@item.LicensePlate</td>
+                <td>@item.DailyRate</td>
+                <td>@item.Status</td>
+                <td>
+                    <a asp-page="./Edit" asp-route-id="@item.CarId">Edit</a> |
+                    <a asp-page="./Details" asp-route-id="@item.CarId">Details</a> |
+                    <a asp-page="./Delete" asp-route-id="@item.CarId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-page="./Create" class="btn btn-primary">Create New</a>
